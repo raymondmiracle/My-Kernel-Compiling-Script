@@ -1,7 +1,7 @@
  #
  # Script For Building Android arm64 Kernel 
  #
- # Copyright (c) 2018-2019 Panchajanya1999
+ # Copyright (c) 2018 Panchajanya1999
  # Copyright (C) 2019 Raymond Miracle 
  # 
  
