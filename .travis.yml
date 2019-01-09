@@ -1,0 +1,7 @@
+sudo: required
+language: c
+
+script:
+  - rm -rf *.log *Image* gcc *.txt *zImage
+  - chmod +x build.sh
+  - bash build.sh
