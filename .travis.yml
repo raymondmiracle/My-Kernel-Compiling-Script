@@ -2,6 +2,6 @@ sudo: required
 language: c
 
 script:
-  - rm -rf *.log *Image* gcc *.txt *zImage
-  - chmod +x build.sh
-  - bash build.sh
+  - rm -rf *.log *Image* gcc *.txt zImage
+  - chmod +x b.sh
+  - bash b.sh
