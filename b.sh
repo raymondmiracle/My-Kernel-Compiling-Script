@@ -97,8 +97,9 @@ function check_kernel {
 		echo -e "${GRN}#################################################"
 	else 
 		echo -e "${RED}#################################################"
-		echo -e "${RED}#Kernel failed to compile after $(($DIFF / 60)) minute(s) and $(($DIFF % 60)) seconds..!!#"
+		echo -e "${RED}#Kernel failed to compile after $(($DIFF / 60)) minute(s) and $(($DIFF % 60)) seconds..!! Uploading logs asap#"
 		echo -e "${RED}#################################################"
+		curl -F file=@logcat.txt http://0x0.st
 	fi	
 }
 
